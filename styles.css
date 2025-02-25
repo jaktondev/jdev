@@ -1,9 +1,10 @@
 body {
-  background-color: mintcream;
+  background-color: black;
   border: 3px solid plum;
   text-align: center;
   font-family: "Inconsolata", serif;
   font-size: 20px;
+  color: snow;
 }
 
 h1 {
@@ -19,11 +20,13 @@ h1 {
 h2 {
   font-family: "Courier Prime", serif;
   font-size: 34px;
+  color: snow;
 }
  
 p {
   font-family: "Inconsolata", serif;
   font-size: 20px;
+  color: snow;
 }
 
 pre {
@@ -32,10 +35,11 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: auto;
-  font-size: calc(1vw + 0.5em);
+  font-size: 20px;
   max-width: 100%;
   overflow-x: auto;
   text-align: center;
+  color: snow;
 }
 
 table {
@@ -46,6 +50,7 @@ table {
   text-align: center;
   border: solid 3px olive;
   margin: auto;
+  color : snow;
 }
 
 div {
@@ -66,4 +71,20 @@ td {
 @keyframes rainbow {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
+}
+
+a:visited {
+  color: mistyrose;
+}
+
+a:link {
+  color: mistyrose;
+}
+
+a:hover {
+  color: mistyrose;
+}
+
+a:active {
+  color: mistyrose;
 }
