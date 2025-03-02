@@ -1,16 +1,16 @@
 body {
-  background-color: black;
-  border: 3px solid plum;
+  background-color: #36005c;
+  border: 3px solid #e85800;
   text-align: center;
   font-family: "Inconsolata", serif;
   font-size: 20px;
-  color: snow;
+  color: white;
 }
 
 h1 {
-  font-family: "Kode Mono", serif;
+  font-family: "VT323", serif;
   font-size: 48px;
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to right,#ffffff,#ff0077,#ffd000,#22f800,#00e1ff,#ba0000,#e85800,#0583cc, #8200e2, #36005c, #ffffff, #ff0077,#ffd000,#22f800,#00e1ff,#ba0000,#e85800,#0583cc, #8200e2, #36005c, #ffffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 3s linear infinite;
@@ -18,39 +18,70 @@ h1 {
 }
 
 h2 {
-  font-family: "Courier Prime", serif;
+  font-family: "Courier Prime", monospace;
   font-size: 34px;
-  color: snow;
+  color: #ffd000;
+  border: 2px solid #ba0000;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  margin: auto;
 }
- 
+
+h3 {
+  font-family: "VT323", serif;
+  font-size: 28px;
+  color: #ffd000;
+  border: 2px solid #ba0000;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+hr {
+  border: 2px solid #22f800;
+  width: 90%;
+  margin: auto;
+}
+
 p {
-  font-family: "Inconsolata", serif;
+  font-family: "Inconsolata", monospace;
   font-size: 20px;
-  color: snow;
+  color: white;
+  border: 2px solid #00e1ff;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 pre {
-  font-family: "Doto", serif;
-  border: 3px solid teal;
+  font-family: "Courier Prime", monospace;
+  border: 3px solid #0583cc;
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: auto;
-  font-size: 12px;
+  font-size: 20px;
   max-width: 100%;
   overflow-x: auto;
   text-align: center;
-  color: snow;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  margin: auto;
 }
 
 table {
   font-family: "Inconsolata", serif;
   font-size: 20px;
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
   text-align: center;
-  border: solid 3px olive;
+  border: solid 3px #22f800;
   margin: auto;
-  color : snow;
+  color : white;
 }
 
 div {
@@ -61,11 +92,11 @@ div {
 }
 
 th {
-  border: solid 3px purple;
+  border: solid 3px #22f800;
 }
 
 td {
-  border: solid 3px orangered;
+  border: solid 3px #ff0077;
 }
 
 @keyframes rainbow {
@@ -74,15 +105,15 @@ td {
 }
 
 a:visited {
-  color: mistyrose;
+  color: #ffd000;
 }
 
 a:link {
-  color: mistyrose;
+  color: #ffd000;
 }
 
 a:hover {
-  color: mistyrose;
+  color: #ffd000;
 }
 
 a:active {
