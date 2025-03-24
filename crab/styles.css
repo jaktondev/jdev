@@ -1,0 +1,78 @@
+body {
+    font-family: 'VT323', 'Courier Prime', 'Inconsolata', monospace;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #282c34;
+    color: #61dafb;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+  }
+  
+  nav a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .ascii-art {
+    color: #00ff00;
+    font-family: 'Courier Prime', monospace;
+  }
+  
+  .description {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .description h2 {
+    color: #ff79c6;
+  }
+  
+  .description p {
+    margin: 10px 0;
+  }
+  
+  .code-block {
+    background-color: #282c34;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #282c34;
+    color: #61dafb;
+  }
+  
+  footer a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }

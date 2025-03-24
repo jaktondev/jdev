@@ -6,27 +6,26 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="icon" href="../J.png">
-  <style>
-  </style>
 </head>
 
 <body>
 
-  <h1>
-    CrabCLI
-  </h1>
-    <h2>
-        The crab "CLI Crystal-lang framework"
-    </h2>
-    <hr>
-    <br>
-    <a href="../">Home</a> | <a href="../notes/">Notes</a> | <a href="../crab/">CrabCLI</a> | <a href="../jaktonarch/">JaktonArch</a>
-    <br>
-    <hr>
-    <br>
-  <pre>
+  <header>
+    <h1>CrabCLI</h1>
+    <h2>The crab "CLI Crystal-lang framework"</h2>
+    <nav>
+      <a href="../">Home</a> | 
+      <a href="../notes/">Notes</a> | 
+      <a href="../crab/">CrabCLI</a> | 
+      <a href="../jaktonarch/">JaktonArch</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="ascii-art">
+      <pre>
            _                      
           ( \                     
            \ \                    
@@ -48,54 +47,40 @@
     │/  │ /\──────────/\ │  \│    
     │   │/   │/     │   \│   │    
         │    │      │    │        
-  </pre>
+      </pre>
+    </section>
 
-  <h2>
-    CrabCLI, or only crab, is a CLI framework/shard... 
-  </h2>
-  <p>
-    ... for making prettier/better command line applications for the Crystal Programming language.
-    I made it from scratch and is still in development. It is somewhat inspired of the rich library from python.
-    <br>
-    <br>
-    <b>WHY?</b> 
-    <br> Because I love CLI apps and I really liked Crystal but there was no shard for prettier
-    CLI's when I began to learn it, and I would love CLI's to be made with such an easy and powerfull
-    language.
-    <br>
-    <br>
-    <b>Dependencies?</b>
-    <br>
-    Crab does not have any other Crystal dependencies, but it does make use of stty command to get the terminal size.
-    Most Linux distros have it installed by default, try to make sure you have it too.
-    <br>
-    <br>
-    <b>Works on Windows?</b>
-    <br>
-    As Crystal Lang is not fully supported of Windows I have not tested so I have truly no idea and I do not recommend it.
-    IF Crystal is fully ported to Windows, then I will try to make it work.
-    <br>
-    <br>
-    <b>How to install?</b>
-    <br>
-    Add to your shard.yml file:
-    <br>
-  </p>
-    <pre style="text-align: left;">
-    <code>
+    <section class="description">
+      <h2>About CrabCLI</h2>
+      <p>
+        CrabCLI, or simply crab, is a CLI framework/shard for making prettier and better command line applications for the Crystal Programming language. It is inspired by the rich library from Python.
+      </p>
+      <p>
+        <b>WHY?</b> Because I love CLI apps and I really liked Crystal, but there was no shard for prettier CLI's when I began to learn it. I would love CLI's to be made with such an easy and powerful language.
+      </p>
+      <p>
+        <b>Dependencies?</b> Crab does not have any other Crystal dependencies, but it does make use of the stty command to get the terminal size. Most Linux distros have it installed by default, so make sure you have it too.
+      </p>
+      <p>
+        <b>Works on Windows?</b> As Crystal Lang is not fully supported on Windows, I have not tested it, so I have no idea and do not recommend it. If Crystal is fully ported to Windows, I will try to make it work.
+      </p>
+      <p>
+        <b>How to install?</b> Add to your shard.yml file:
+      </p>
+      <pre class="code-block">
+        <code>
 dependencies:
   crab:
     github: jaktondev/crab
-    </code>
-    </pre>
-    <br>
-    <p>
-    Then run: shards install
-    </p>  
-    <br>
-    <hr>
-    <br>
+        </code>
+      </pre>
+      <p>Then run: <code>shards install</code></p>
+    </section>
+  </main>
+
+  <footer>
     <a href="./docs">Documentation</a>
-    <br>
+  </footer>
 
 </body>
+</html>
